@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maps JS</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=Mykey&callback=initMap&libraries=places,geometry&v=beta" async defer></script>
+</head>
+<body>
+    <h3>Simulación de ruta con alertas</h3>
+    <div id="map"></div>
+    <div id="notification" class="notification"></div> <!-- Elemento para las notificaciones -->
+    <button id="startButton">Iniciar Simulación</button> <!-- Botón para iniciar la simulación -->
+    <button id="stopButton">Detener Simulación</button> <!-- Botón para detener la simulación -->
+
+    <script src="script.js"></script> 
+</body>
+</html>

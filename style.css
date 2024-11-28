@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: #050126;  
+}
+
+h3 {
+    text-align: center; /* Centrar el título */
+    font-size: 2.5rem; /* Tamaño de fuente más grande */
+    margin: 20px 0; /* Margen alrededor del título */
+    color: white; /* Color del texto del título */
+    font-family: 'Helvetica Neue', sans-serif; /* Cambia la fuente del título */
+}
+
+#map {
+    height: 500px;
+    width: 90%;
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra para el mapa */
+    margin-bottom: 20px; /* Margen inferior */
+    padding: 1%;
+}
+
+.notification {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+#startButton {
+    position: fixed; /* Fijar el botón en la parte inferior */
+    bottom: 0; /* Alinear al fondo */
+    left: 0; /* Alinear a la izquierda */
+    width: 50%; /* Ocupa el 100% del ancho */
+    padding: 15px; /* Espaciado más grande */
+    background-color: #007bff; /* Color de fondo azul */
+    color: white;
+    border: none;
+    border-radius: 0; /* Sin esquinas redondeadas */
+    font-size: 1.5rem; /* Tamaño de fuente más grande */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Efecto de transición */
+}
+
+#stopButton {
+    position: fixed; /* Fijar el botón en la parte inferior */
+    bottom: 0; /* Alinear al fondo */
+    right: 0; /* Alinear a la izquierda */
+    width: 50%; /* Ocupa el 100% del ancho */
+    padding: 15px; /* Espaciado más grande */
+    background-color: #E4080A; /* Color de fondo azul */
+    color: white;
+    border: none;
+    border-radius: 0; /* Sin esquinas redondeadas */
+    font-size: 1.5rem; /* Tamaño de fuente más grande */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Efecto de transición */
+}
+
+#startButton:hover {
+    background-color: #0056b3; /* Cambiar color al pasar el ratón */
+}
+
+
+#stopButton:hover {
+    background-color: #6f0002; /* Cambiar color al pasar el ratón */
+}
+
+
+
